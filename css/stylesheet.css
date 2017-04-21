@@ -92,7 +92,7 @@ button:hover{
 }
 
 .search{
-    padding-top: 100px;
+    padding-top: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -123,13 +123,15 @@ h4{
 .logos{
     width:100px;
     height:60px;
+}
+.sponsor_pics{
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
 }
 #expedia{
     height: 30px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 input{
     height:50px;
@@ -167,4 +169,20 @@ block_bottom1{
     text-align: center;
     color:#212121;
 
+}
+.block2_title p{
+    color:#8B8EB4;
+    font-size: 20px;
+    margin-top: 0;
+}
+.menu2 ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+#list2 {
+    padding-left: 20px;
 }
