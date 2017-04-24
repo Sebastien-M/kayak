@@ -105,7 +105,8 @@ button:hover{
 .titre{
     width: 100%;
     display: flex;
-    padding-left:20%;
+    text-align: left;
+    padding-left:16%;
 }
 
 .description{
@@ -133,15 +134,23 @@ h4{
     flex-direction: row;
 }
 #expedia{
-    height: 30px;
-    padding-top: 10px;
+    height: 60px;
+    padding-top: 0px;
     padding-left: 10px;
 }
-input{
+form{
+    
+}
+.form1{
     height:50px;
     border-radius: 0px;
     border-style: none;
-    display:inline-block;
+    width: 300px;
+    padding-left: 5px;
+}
+.input{
+    display: flex;
+    flex-wrap: nowrap;
 }
 .options{
     height:52px;
@@ -223,6 +232,7 @@ div img{
 
 #img1{
     height: 500px;
+    
 }
 .images figure img{
     border-radius: 3px;
