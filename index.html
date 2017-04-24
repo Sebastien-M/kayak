@@ -33,15 +33,17 @@
             <section class="titre">
                 <h1>Trouvez des offres d'hôtels</h1>
             </section>
-            <section class="input">
-                <input placeholder="Où" /><input placeholder="Arrivée - Départ" value="" /><select class="options" name="options"
-                    size="1">
+            <form>
+                <section class="input">
+                    <input placeholder="Où" /><input placeholder="Arrivée - Départ" value="" /><select class="options" name="options"
+                        size="1">
                         <option>1 chambre , 1 personne</option>
                         <option>1 chambre , 2 personnes</option>
                         <option>1 chambre , 3 personnes</option>
                         <option>1 chambre , 4 personnes </option>
                     </select><button type="submit" value="Rechercher">Rechercher</button>
-            </section>
+                </section>
+            </form>
         </section>
     </section>
 
@@ -69,31 +71,70 @@
             <nav class="menu2">
 
                 <ul>
-                    <li>Monde entier</li>
-                    <li id="list2">Populaire</li>
+                    <li id="list2">Monde entier</li>
+                    <li>Populaire</li>
                     <li id="list2">France</li>
                 </ul>
 
             </nav>
             <section class="images">
                 <figure>
-                    <div><img src="images/paris.jpg" alt=""></div>
-                    <div><img src="images/bangkok.jpg" alt=""></div>
-                    <div><img src="images/alger.jpg" alt=""></div>
-                    <div><img src="images/barcelone.jpg" alt=""></div>
-                    <div><img src="images/newyork.jpg" alt=""></div>
-                    <div><img src="images/marseille.jpg" alt=""></div>
-                    <div><img src="images/londres.jpg" alt=""></div>
-                    <div><img src="images/casablanca.jpg" alt=""></div>
-                    <div><img src="images/tunis.jpg" alt=""></div>
-                    <div><img src="images/montreal.jpg" alt=""></div>
-                    <div><img src="images/nice.jpg" alt=""></div>
-                    <div><img src="images/losangeles.jpg" alt=""></div>
-                    <div><img src="images/miami.jpg" alt=""></div>
-                    <div><img src="images/porto.jpg" alt=""></div>
-                    <div><img src="images/rome.jpg" alt=""></div>
+                    <div><a href=""><img class="fade" id="img1" src="images/paris.jpg" alt=""></a></div>
+                    <div><a href=""><img class="fade" src="images/bangkok.jpg" alt=""></a></div>
+                    <div><a href=""><img class="fade" src="images/alger.jpg" alt=""></a></div>
+                    <div><a href=""><img class="fade" src="images/barcelone.jpg" alt=""></a></div>
+                    <div><a href=""><img class="fade" src="images/newyork.jpg" alt=""></a></div>
+                    <div><a href=""><img class="fade" src="images/marseille.jpg" alt=""></a></div>
+                    <div><a href=""><img class="fade" src="images/londres.jpg" alt=""></a></div>
+                    <div><a href=""><img class="fade" src="images/casablanca.jpg" alt=""></a></div>
+                    <div><a href=""><img class="fade" src="images/tunis.jpg" alt=""></a></div>
+                    <div><a href=""><img class="fade" src="images/montreal.jpg" alt=""></a></div>
+                    <div><a href=""><img class="fade" src="images/nice.jpg" alt=""></a></div>
+                    <div><a href=""><img class="fade" src="images/losangeles.jpg" alt=""></a></div>
+                    <div><a href=""><img class="fade" src="images/miami.jpg" alt=""></a></div>
+                    <div><a href=""><img class="fade" src="images/porto.jpg" alt=""></a></div>
+                    <div><a href=""><img class="fade" src="images/rome.jpg" alt=""></a></div>
                 </figure>
             </section>
+
+            <section class="tools">
+                <h2>Utilisez nos outils pour faciliter votre recherche</h2>
+                <nav class="t2">
+
+                    <a href="">
+                        <section class="tools_choice">
+                            <img src="images/bell.png" alt="bell">
+                            <h4>Alertes de prix</h4>
+                            <p>Recevez les tarifs de vols et d'hôtels par email</p>
+                    </a>
+                    </section>
+                    <a href="">
+                        <section class="tools_choice">
+                            <img src="images/planet.png" alt="planet">
+                            <h4>Explore</h4>
+                            <p>Découvrez où partir selon votre budget</p>
+                            </section>
+                    </a>
+                    
+                    <a href="">
+                        <section class="tools_choice">
+                            <img src="images/calendar.png" alt="calendar">
+                            <h4>Mois flexible</h4>
+                            <p>Trouvez les meilleurs tarifs sur 30 jours</p>
+                            </section>
+                    </a>
+                    
+                    <a href="">
+                        <section class="tools_choice">
+                            <img src="images/case.png" alt="case">
+                            <h4>Trips</h4>
+                            <p>Organisez gérez et partagez votre voyage</p>
+                            </section>
+                    </a>
+                    
+                </nav>
+            </section>
+
         </section>
     </main>
 
@@ -132,13 +173,13 @@
                 <h5>Pays/Devise</h5>
                 <ul class="pays">
                     <li>
-                        <select name="pays" size="1">
+                        <select class="country" name="pays" size="1">
                         <option>France</option>
                         <option>United Kingdom</option>
                     </select>
                     </li>
                     <li>
-                        <select name="devise" size="1">
+                        <select class="country" name="devise" size="1">
                         <option>Euro €</option>
                         <option>Dollar $</option>
                     </select>
@@ -147,7 +188,18 @@
             </section>
         </section>
 
-        <section class="footer2"></section>
+        <section class="footer2">
+            <nav class="footer2_title">
+                <a href="">Confidentialité</a>
+                <a href="">Conditions générales</a>
+                <h6>©2017 KAYAK</h6>
+            </nav>
+            <p> Économies calculées par rapport aux prix les plus élevés des autres sites de voyage en ligne. Les économies réalisées
+                peuvent varier selon les résultats de recherche.
+                <br/> Vols, hôtels, location de voitures et offres de voyage pas chers. Vols internationaux les plus populaires.
+                KAYAK recherche sur des centaines de sites de voyage pour trouver les meilleures offres de billets d'avion,
+                d'hôtels pas chers, de séjours et de location de voitures. </p>
+        </section>
     </footer>
 </body>
 
