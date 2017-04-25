@@ -209,17 +209,6 @@ block_bottom1{
 #list2 {
     padding-left: 20px;
 }
-figure {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-figure img{
-    padding: 5px 5px 5px 5px;
-    max-width: 350px;
-    min-width: 300px;
-    height: auto;
-}
 
 .fade:hover {
    opacity: 0.5;
@@ -233,10 +222,42 @@ figure img{
     opacity: 1;
 }
 
+.block_img1 {
+    display: flex;
+    flex-direction: row;
+}
+.block_img11 a *{
+     width: 320px;
+     height: 270px;
+}
+#bk{
+    width: 650px;
+    height: auto;
+}
+.block_img11{
+    display:flex;
+    flex-wrap: wrap;
+}
+.block_img12 a *{
+    width: 350px;
+    height: 725px;
+}
+.block_img1, .block_img2, .block_img3{
+    padding-left: 127px;
+    padding-right: 120px;
+}
+figure img{
+    padding: 5px 5px 5px 5px;
+}
+
 #img1{
-    width: 100%;
+    width: auto;
     height: 500px;
     
+}
+#paris{
+    display:flex;
+    justify-content: center;
 }
 .images figure img{
     border-radius: 3px;
