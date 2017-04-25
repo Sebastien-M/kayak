@@ -211,13 +211,14 @@ block_bottom1{
 }
 figure {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: center;
 }
 figure img{
     padding: 5px 5px 5px 5px;
-    width:330px;
-    height: 300px;
+    max-width: 350px;
+    min-width: 300px;
+    height: auto;
 }
 
 .fade:hover {
