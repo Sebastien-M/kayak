@@ -188,7 +188,7 @@ block_bottom1{
     font-size: 20px;
     margin-top: 0;
 }
-#list2 a{
+.list2 a{
     color:#8B8EB4;
 }
 .list25{
@@ -206,7 +206,7 @@ block_bottom1{
     margin:0;
     padding-top: 30px;
 }
-#list2 {
+.list2 {
     padding-left: 20px;
 }
 
