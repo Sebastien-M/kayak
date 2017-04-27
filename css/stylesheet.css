@@ -177,13 +177,13 @@ block_bottom1{
     flex-wrap: wrap;
     padding-top: 46.8px;
 }
-.block2_title h2{
+h2.block2_title{
     width:100%;
     text-align: center;
     color:#212121;
 
 }
-.block2_title p{
+p.block2_title{
     color:#8B8EB4;
     font-size: 20px;
     margin-top: 0;
@@ -238,21 +238,26 @@ block_bottom1{
 .block_img11{
     display:flex;
     flex-wrap: wrap;
+    width: 51vw;
 }
 .block_img12 a *{
     width: 345px;
     height: 725px;
 }
 .block_img1, .block_img2, .block_img3{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left:10.5vw;
 }
-figure img{
+ .images section a img{
     padding: 5px 5px 5px 5px;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #img1{
-    width: auto;
+    width: 100%;
     height: 500px;
     
 }
@@ -275,10 +280,13 @@ figure img{
 .block_img2{
     padding-right: 90px;
 }
+.block_img22{
+    display: flex;
+}
 .block_img22 a img{
     display: flex;
     flex-wrap: nowrap;
-    width: 327px;
+    width: 330px;
     height: 270px;
 }
 .block_img31{
@@ -292,7 +300,7 @@ figure img{
     width: 650px;
     height: 270px;
 }
-.images figure img{
+.images img{
     border-radius: 3px;
     display:inline;
 }
@@ -375,7 +383,7 @@ h6{
 }
 .tools_choice:hover{
     box-shadow: 0px 0px 10px  #888888;
-    padding: 60px 30px 60px 30px;
+    
 }
 .tools_choice h4{
     font-weight: bold;
