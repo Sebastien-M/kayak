@@ -47,6 +47,7 @@ a{
     
     text-decoration: none;
     color:#BFBCC4;
+    transition: all .3s;
 }
 
 .menu li a:hover{
@@ -78,9 +79,10 @@ button{
     padding:13px 15px 17px 15px;
     border-radius: 2px;
     margin:0;
+    transition: all .3s;
 }
 button:hover{
-    background-color: #d15300;
+    background-color: #d15200;
     cursor: pointer;
 }
 
@@ -411,7 +413,7 @@ h6{
     transition: all .3s;
 }
 .tools_choice:hover{
-    box-shadow: 0px 0px 30px  #888888;
+    box-shadow: 0px 0px 20px  #888888;
     
 }
 .tools_choice h4{
